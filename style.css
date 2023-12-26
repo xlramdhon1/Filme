@@ -1,0 +1,88 @@
+:root {
+    --main: #1640d6;
+    --hov: #1233AB;
+}
+
+/* section jumbotron */
+.jumbotron {
+    padding: 10.9rem 10rem;
+    background-color: white;
+}
+
+button.btn.signin {
+    color: white;
+    background-color: var(--main);
+}
+
+button.btn.signin:hover {
+    background-color: var(--hov);
+    color: white;
+}
+
+button.btn.signup-modal {
+    color: white;
+    background-color: var(--main);
+}
+
+button.btn.signup-modal:hover {
+    background-color: var(--hov);
+    color: white;
+}
+
+button.btn.dropdown-toogle.text-light::after {
+    border-color: var(--hov);
+}
+
+
+
+/* section budget */
+.budget {
+    padding: 1rem 10rem;
+    background-color: white;
+    border: 1rem 1rem 1rem 1rem;
+}
+
+.budget-card {
+    background-color: var(--main);
+    padding: 1rem 2rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+    transition: 0.3s;
+}
+
+.budget-card:hover {
+    box-shadow: 0.2rem 0.5rem 0.5rem 0.2rem black;
+}
+
+.budget-card h2, p {
+    margin-top: 1rem;
+}
+
+
+
+/* section accordion */
+.accordion {
+    background-color: white;
+    padding: 0.3rem 5rem 0.3rem 10rem;
+}
+
+button.accordion-button:nth-child(1) {
+    background-color: var(--main);
+    text-decoration: none;
+}
+
+button.accordion-button:nth-child(1):after {
+    background-image: url(image/+.png);    
+    transition: none;
+}
+
+
+button.accordion-button:hover {
+    background-color: var(--hov);
+}
+
+/* section blank */
+
+.blank {
+    background-color: white;
+    padding: 1rem 10rem;
+}

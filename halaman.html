@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filme</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="dist/aos.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand pt-3 px-5" style="background-color: white">
+      <div class="container-fluid">
+        <img src="image/logo.png">
+        <div class="collapse navbar-collapse justify-content-end" id="navbar">
+          <div class="btn-group mx-2">
+            <button
+              type="button"
+              class="btn dropdown-toggle text-dark"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="border-color: #5E5E5E;"
+            >
+            Bahasa Indonesia
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item active" href="#">Bahasa Indonesia</a></li>
+              <li><a class="dropdown-item" href="home.html">English</a></li>
+            </ul>
+          </div>
+          
+          <button
+            type="button"
+            class="btn signin"
+          >
+          Masuk
+          </button>
+        
+        </div>
+      </div>
+    </nav>
+    <section class="jumbotron" style="color: var(--main);">
+      <div data-aos="zoom-in">
+        <h1 class="display-3" style="font-weight: 800;">
+          Film, acara TV tak terbatas, dan banyak lagi</h1>
+        <h5 style="font-weight: 500;">Harga mulai dari Rp 54.000. Batalkan kapan pun.</h5>
+        <br>
+        <p class="lead text-dark">
+          Siap menonton? Masukkan email untuk membuat atau memulai lagi keanggotaanmu.    
+        </p>
+        <form class="row">
+          <div class=" col-3">
+            <input type="email" class="form-control" id="ControlInput" placeholder="Alamat email" required>
+          </div>
+          <div class="col">
+            <button type="submit" class="btn signup-modal" data-bs-target="#staticBackdrop">
+              Daftar</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="budget text-light">
+          <div data-aos="fade-up">
+            <div class="budget-card">
+              <h2 style="font-weight: 700;">Paket yang sesuai dengan kebutuhan dan anggaranmu</h2>
+              <p class="lead">
+                Nikmati Filme mulai dari Rp 54.000 saja.</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="accordion pt-5">
+      <div data-aos="zoom-in">
+        <h4 style="font-weight: 500; margin-bottom: 1rem;">
+          Tanya Jawab Umum</h4>
+      </div>
+      <div data-aos="fade-up">
+        <div class="accordion-card">
+          <div class="accordion" id="accordionOne" style="padding-left: 0rem; padding-right: 20rem;">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" style="font-weight: 500;">
+                  <p class="fs-4 mt-3 text-light">Apa itu Filme?</p>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionOne">
+                <div class="accordion-body text-light fs-4" style="background-color: #1640d6; font-weight: 500;">Filme adalah layanan streaming yang menawarkan berbagai acara TV pemenang penghargaan, film, anime, dokumenter, dan banyak lagi di ribuan perangkat yang terhubung ke Internet.
+                  <p></p>
+                  <p>Kamu bisa menonton sepuasnya, kapan pun kamu mau, tanpa satu iklan pun – semuanya dengan satu harga bulanan yang murah. Selalu ada tontonan baru dan acara TV serta film baru yang ditambahkan setiap minggu!</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordionTwo" style="padding-left: 0rem; padding-right: 20rem;">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-weight: 500;">
+                  <p class="fs-4 mt-3 text-light">Berapa biaya berlangganan Filme?</p>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionTwo">
+                <div class="accordion-body text-light fs-4" style="background-color: var(--main); font-weight: 500;">Tonton Filme di smartphone, tablet, Smart TV, laptop, atau perangkat streaming-mu, semuanya dengan satu harga bulanan tetap Rentang harga mulai dari Rp 54.000 hingga Rp 186.000 per bulan. Tanpa biaya ekstra, tanpa kontrak.</div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordionThree" style="padding-left: 0rem; padding-right: 20rem;">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-weight: 500;">
+                  <p class="fs-4 mt-3 text-light">Dimana saya bisa menonton?</p>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionThree">
+                <div class="accordion-body text-light fs-4" style="background-color: var(--main); font-weight: 500;">Tonton di mana pun, kapan pun. Masuk ke akun Filme-mu untuk menonton langsung di filme.com dari komputer pribadi atau di perangkat yang terhubung ke Internet dan mendukung aplikasi Filme, termasuk smart TV, smartphone, tablet, pemutar media streaming, dan konsol game.
+                  <p></p>
+                  <p>Kamu juga bisa men-download acara favoritmu dengan aplikasi iOS, Android, atau Windows 10. Gunakan download untuk menonton saat kamu di perjalanan dan tidak punya koneksi Internet. Bawa Filme ke mana saja.</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordionFour" style="padding-left: 0rem; padding-right: 20rem;">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-weight: 500;">
+                  <p class="fs-4 mt-3 text-light">Bagaimana cara membatalkannya?</p>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFour">
+                <div class="accordion-body text-light fs-4" style="background-color: var(--main); font-weight: 500;">Filme fleksibel. Tanpa kontrak menyebalkan dan tanpa komitmen. Kamu dapat dengan mudah membatalkan akunmu secara online dengan dua kali klik. Tanpa biaya pembatalan – mulai atau hentikan akunmu kapan pun.</div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordionFive" style="padding-left: 0rem; padding-right: 20rem;">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="font-weight: 500;">
+                  <p class="fs-4 mt-3 text-light">Apa yang bisa ditonton di Filme?</p>
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFive">
+                <div class="accordion-body text-light fs-4" style="background-color: var(--main); font-weight: 500;">Filme memiliki pustaka lengkap yang berisi film panjang, film dokumenter, acara TV, anime, Filme original pemenang penghargaan, dan lebih banyak lagi. Tonton sepuasnya, kapan pun kamu mau.</div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordionSix" style="padding-left: 0rem; padding-right: 20rem;">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" style="font-weight: 500;">
+                  <p class="fs-4 mt-3 text-light">Apakah Filme sesuai bagi anak anak?</p>
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionSix">
+                <div class="accordion-body text-light fs-4" style="background-color: var(--main); font-weight: 500;">Pengalaman Filme Anak disertakan dalam keanggotaan agar kamu punya kontrol orang tua saat anak-anak menikmati acara TV dan film untuk keluarga di rumah.
+                  <p></p>
+                  <p>Profil anak dilengkapi kontrol orang tua yang dilindungi PIN sehingga kamu bisa membatasi rating usia konten yang bisa ditonton anak dan memblokir judul tertentu yang tidak boleh ditonton anak-anak.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blank"></section>
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
