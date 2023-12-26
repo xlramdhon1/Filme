@@ -1,4 +1,4 @@
-#Copy Netflix
+Copy Netflix
 
 Web ini dibuat untuk project UAS semester 3 mata kuliah Web Programing.
 
